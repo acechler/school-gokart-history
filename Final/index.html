@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go-Kart Ohio Fanclub </title>
+    <link rel="stylesheet" href="styles\reset.css">
+    <link rel="stylesheet" href="styles\style.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <ul class="navbar__unlist">
+                <li class="navbar__item"><a href="index.html">Home</a></li>
+                <li class="navbar__item"><a href="gokart_history.html">History of Go-Karts</a></li>
+                <li class="navbar__item"><a href="famous_racer.html">Famous Go-Kart Racer</a></li>
+                <li class="navbar__item"><a href="art_ingels.html">The Father of Go-Karts</a></li>
+                <li class="navbar__item"><a href="karting_championship.html">Club Go-Kart Results</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="header-card">
+            <h2 class="header-card__title">
+                Welcome To the Go-Kart Ohio Fanclub 
+            </h2>
+        </section>
+    </section>
+
+    <section class="page-content">
+
+        <div class="page-content__container">
+            <h3 class="page-content__title">Come join the Action!</h3>
+            <div class="page-content__card">
+                <p class="page-content__card__desc">Our Go-Kart club takes big interest in the history of Go-Karting. Feel free to sign up to join the club!</p>
+
+                <p class="page-content__card__desc">Club activities include meeting at local Go-Kart Tracks, Movie Theaters, as well as some community service.</p>
+
+                <p class="page-content__card__desc">feel free to navigate our website to learn about the history of this great motorsport!</p>
+            </div>
+
+        </div>
+        <div class="page-content__image_wrapper">
+            <figure>
+                <img class="image_wrapper__image" src="media\contemporary-go-kart-race.jpg" alt="Go-Kart Race">
+                <figcaption class="image_wrapper__figcaption">Three racers in a competetive Go-Kart race with a track
+                    marshall overseeing the race.</figcaption>
+            </figure>
+        </div>
+
+    </section>
+
+    <section class="page-registration">
+        <h3 class="page-registration__title">Fanclub Registration</h3>
+        <form action="">
+            <div class="page-registration__name-container">
+                <ul class="page-registration__unlist">
+                    <li> <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" required>
+                    </li>
+                    <li> <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" required>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="page-registration__email-container">
+                <ul class="page-registration__unlist">
+                    <li> <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </li>
+                    <li> <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="page-registration__phone-container">
+                <ul class="page-registration__unlist">
+                    <li>
+                        <label for="phone">Enter your phone number</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <small>Format: 123-456-7890</small>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="page-registration__radio-container">
+                <h4 class="page-registration__radio-title">What brings you to the club?</h4>
+                <ul class="page-registration__radio-unlist">
+                    <li> <input type="radio" name="reason" id="reason-one" value="reason-one">
+                        <label for="reason-one">I enjoy the history of Go-Kart</label>
+                    </li>
+                    <li> <input type="radio" name="reason" id="reason-two" value="reason-two">
+                        <label for="reason-two">I enjoy the competition of Go-karts</label>
+                    </li>
+                    <li> <input type="radio" name="reason" id="reason-three" value="reason-three">
+                        <label for="reason-three">I enjoy the engineering of Go-Kart</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="reason" id="reason-four" value="reason-four">
+                        <label for="reason-four">I was told about this club by a friend</label>
+                    </li>
+                </ul>
+            </div>
+            <button class="page-registration__submit" type="submit">Submit</button>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__trademark">
+            Go-Kart Ohio Fanclub &copy; 2022 English (US) <span> <a href="#">About</a> <a href="#">Members</a> <a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">Help</a> </span>
+        </div>
+    </footer>
+</body>
+
+</html>

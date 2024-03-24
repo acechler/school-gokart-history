@@ -1,0 +1,67 @@
+@import url("./style.css");
+
+
+/* HEADER */
+.header-card{
+  padding-bottom: 1rem;
+}
+.header-card .header-card__title {
+  margin: 0.01rem 2rem;
+}
+
+/* IMAGE */
+.image_wrapper{
+  display: flex;
+  background: linear-gradient(to right, hsl(0, 85%, 45%)20%, hsl(0, 85%, 35%)); 
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
+  border: solid 1px;
+}
+.image_wrapper > figure{
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+}
+
+/* Quote Container */
+.quote_container {
+  margin: 1rem;
+  padding: 1rem  1rem;
+  box-shadow: 1rem 1rem 2rem rgb(0, 0, 0);
+  background-color: aliceblue;
+}
+.quote_container > blockquote,figcaption{
+  font-size: 32px;
+  padding: 2%;
+  margin: 1rem;
+}
+/* COLUMNS */  
+.intro{
+  font-size: 20px;
+  padding: 2%;
+  background-color: rgba(240, 248, 255, 0.205);
+  margin-top: 1rem;
+} 
+.column-container{
+  padding: 1rem;
+  margin: 1rem 1rem 1rem;
+}
+.columns {
+  box-shadow: 1rem 1rem 2rem rgb(0, 0, 0);
+  background: linear-gradient(to right, hsl(0, 85%, 45%)20%, hsl(0, 85%, 35%)); 
+  columns: 3rem 3;
+  column-rule: 1px dotted rgb(0, 0, 0);
+  column-gap: 3em;
+}
+
+.columns > p{
+  padding: 1rem 2rem 1rem 1rem;
+  border-radius: 10%;
+  background-color: aliceblue;
+  line-height: 1.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.intro {
+   column-span: all;
+}
+

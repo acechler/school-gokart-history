@@ -1,0 +1,82 @@
+Course Webpages: https://cisplace.sinclair.edu/timothy.patton/1350-2022/
+
+Some examples of things you might consider:
+
+The final project is meant to showcase your HTML, CSS skills learned in this class
+And the main idea is to plan out an entire small-scale website miniumum of 5 pages and not more then 10 page.
+Project Requirements
+Your fully finished project should consist of the following:
+
+Minimum of five (5) linked pages
+Used at least 2 column layout
+All pages designed to be responsive to different viewports
+Used the file structure shown on previous page
+Used external style sheet
+At least one @import rule
+Used reset css and applied to all pages
+Used at least one print css styles
+Code that contains both HTML and CSS components, including, but not limited to:
+HTML:
+    Header, section, aside, article. footer
+    Media Queries
+    Viewports
+    headings
+    figure and figcaption
+    One html form and cascaded with at least:
+    input types text, tel, email and labeled accordingly
+    Minimum of 3 input type radio grouped and labeled
+    Minimum of 3 input type checkbox grouped and labeled
+    One text area and labeled
+    One submit button and one reset button
+    One table and cascaded with minimum of:
+    Six (6) Columns and 6 rows
+    Two (2) columns spanned
+    Two (2) rows spanned
+    thead, tbody, tfoot
+    At least one embedded youTube video
+    Paragraph
+    List (ordered and unordered)
+    Link(s)
+    Image(s) 
+    blockquote
+CSS:
+    Selectors for multiple elements
+    Font and Font Size
+    Text color
+    pseudo classes
+So as you try to meet the requirements set forth, keep in mind the following in mind:
+
+Well-organized file structure
+Re-use of CSS, and images
+Consistency throughout pages in header, footer, navigation, and potentially other elements
+Well-chosen titles that stand on their own
+"meta" keywords and description appropriate for each page
+Print CSS rules
+Suggested ideas for final project
+Your final project can be:
+
+About you (to promote you, your story)
+Your school
+Biography of modern or past icon
+Sports (Football, Soccer, Baseball, ... etc.).
+A religious organization
+A none profit organization
+A hobby
+Promoting educational topic
+Introducing country, a state
+Special trip (vacation)
+A business (restaurant, gift shop, ...etc).
+Other ideas are welcomed, as long as you meet the design specifications
+
+
+
+----- REFERENCES-----
+https://www.gokartguide.com/famous-go-kart-racers/
+    Ayrton Senna
+    Quotes: https://www.brainyquote.com/quotes/ayrton_senna_348836
+        Being second is to be the first of the ones who lose. 
+
+
+
+Famous Go-Kart racer
+Ayrton Senna

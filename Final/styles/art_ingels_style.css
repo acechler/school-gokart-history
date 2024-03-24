@@ -1,0 +1,80 @@
+@import url("./style.css");
+
+
+/* HEADER */
+.header-card .header-card__title {
+    margin: 0.01rem 2rem;
+}
+
+/* PAGE CONTENT */
+.page-content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+.page-content__card {
+    padding: 1 1rem;
+}
+
+
+
+.page-content__card__desc {
+    border-radius: 10%;
+    border: black 1px outset;
+    background-color: aliceblue;
+    margin: 1rem;
+    line-height: 120%;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.page-content__image_wrapper {
+    padding: 0.1rem 1rem;
+}
+
+/* IMAGE WRAPPER */
+
+.image_wrapper__unlist{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 4rem;
+}
+
+.image_wrapper__item{
+    padding-top: 1rem;
+}
+
+.image_wrapper__image{
+    width: 100%;
+}
+.image_wrapper__figcaption {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.orlist{
+    background-color: aliceblue;
+    list-style-type:decimal;
+    font-size: 1rem;
+    line-height: normal;
+    margin: 1rem;
+    border-radius: 10%;
+}
+.orlist__title{
+    font-size: 24px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.orlist > li{
+    padding: 1rem 1rem;
+    margin: 1.2rem;
+}
+.orlist >li:nth-child(even){
+    background-color: rgba(129, 165, 194, 0.425);
+}
+
+.orlist >li:nth-child(odd){
+    background-color: rgba(180, 212, 238, 0.425);
+}
